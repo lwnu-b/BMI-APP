@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI App</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body
+        {
+            background-color: black;
+        }
+        .main
+        {
+        width: 60%;
+        margin: 24% auto;
+        }
+        #slider
+        {
+           width: 450px;
+        }
+        #slider::-webkit-scrollbar-thumb
+        {
+            -webkit-appearance: none;
+            outline: none;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+  <div class="main">
+      <input type="range" min="0" max="100" value="50" id="slider">
+  </div>
+</body>
+</html>
